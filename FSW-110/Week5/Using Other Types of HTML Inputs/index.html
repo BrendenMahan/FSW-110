@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Using Other Types of HTML Inputs</title>
+  </head>
+  <body>
+    <form name= "passengerData">
+
+        First: <input type="text" name="firstName" placeholder="First Name" required/><br><br>
+        Last: <input type="text" name="lastName" placeholder="Last Name" required/><br><br>
+        Age: <input type= "number" name="age" placeholder="Age" required/><br><br>
+        Phone: <input type="tel" name="phone" placeholder="Phone #" required/><br><br>
+
+        Gender:
+            Male <input type="radio" name="gender" value="Male"/>
+            Female <input type="radio" name="gender" value="Female"/>
+            Other <input type="radio" name="gender" value="Other"/><br><br>
+
+        Location:
+            <select name="city" required>
+            <option></option>
+            <option value="New York">New York</option>
+            <option value="Miami">Miami</option>
+            <option value="Phoenix">Phoenix</option>
+            <option value="Los angeles">Los angeles</option>
+            <option value="Denver">Denver</option>
+            <option value="Dallas">Dallas</option>
+            <option value="Chicago">Chicago</option>
+        </select>
+
+        <br><br>
+            Dietary Restrictions:<br> 
+            Lactose free <input type="checkbox" name="dietary" value="Lactose free"/>
+            Peanut Allergies <input type="checkbox" name="dietary" value="Peanut Allergies"/> 
+            Vegetarian <input type="checkbox" name="dietary" value="Vegetarian"/>
+            Diabetic <input type="checkbox" name="dietary" value="Diabetic"/><br>
+        <button>Submit</button>
+    </form>
+    <script src ="index.js"></script>
+  </body>
+</html>
