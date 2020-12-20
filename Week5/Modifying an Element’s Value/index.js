@@ -1,7 +1,11 @@
 function getdetails(){
-    var a = document.forms["details"]["lastname"].value;
-    var b = document.forms["details"]["firstname"].value;
-    var c= document.forms["details"]["email"].value;
-    alert("Your name is: "+a+" "+b+". Your e-mail is: "+c);
+
+    var l = document.forms["details"]["lastname"].value;
+
+    var f = document.forms["details"]["firstname"].value;
+
+    var e = document.forms["details"]["email"].value;
+
+    alert("Your name is: "+l+" "+f+". Your e-mail is: "+e);
     }
     
